@@ -193,7 +193,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(575, 12);
             this.label8.TabIndex = 110;
-            this.label8.Text = "1. 速度计算方法：例如我方速度为8，怪物速度为7，则每隔1/8秒我方行动一次，每隔1/7秒怪物行动一次。";
+            this.label8.Text = "1. 攻速计算方法：例如我方攻速为8，怪物攻速为7，则每隔1/8秒我方行动一次，每隔1/7秒怪物行动一次。";
             // 
             // label9
             // 
@@ -252,7 +252,7 @@
             this.Controls.Add(this.btn_add);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "速度计算器 By 艾之葵";
+            this.Text = "攻速计算器 By 艾之葵";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.ResumeLayout(false);
